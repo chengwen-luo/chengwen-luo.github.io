@@ -1,1 +1,80 @@
-hello!
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>你的名字</h1>
+        <p>你的职位 | 你的研究领域</p>
+    </header>
+    
+    <nav>
+        <a href="#about">关于我</a>
+        <a href="#publications">发表论文</a>
+        <a href="#contact">联系我</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>关于我</h2>
+            <p>在这里写一些关于你自己的介绍，包括你的学术背景、研究兴趣等。</p>
+        </section>
+
+        <section id="publications">
+            <h2>发表论文</h2>
+            <ul>
+                <li>论文标题 - 发表年份</li>
+                <li>论文标题 - 发表年份</li>
+                <li>论文标题 - 发表年份</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <p>电子邮箱: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 你的名字</p>
+    </footer>
+</body>
+</html>
